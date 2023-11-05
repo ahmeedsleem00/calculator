@@ -1,0 +1,38 @@
+/* Default styles for all screen sizes */
+
+/* Styles for screens smaller than 576px (extra small devices) */
+@media (max-width: 575.98px) {
+    .calculator form input {
+    width: 50px;
+    }
+  }
+  
+  /* Styles for screens between 576px and 767.98px (small devices) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .calculator form input {
+        width: 50px;
+    }
+  }
+  
+  /* Styles for screens between 768px and 991.98px (medium devices) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .calculator form input {
+        width: 50px;
+    }
+  }
+  
+  /* Styles for screens between 992px and 1199.98px (large devices) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .calculator form input {
+        width: 50px;
+    }
+  }
+  
+  /* Styles for screens 1200px and larger (extra large devices) */
+  @media (min-width: 1200px) {
+    .calculator form input {
+        width: 50px;
+      /* Add specific styles for extra large devices here */
+    }
+  }
+  
